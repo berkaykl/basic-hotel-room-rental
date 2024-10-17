@@ -1,0 +1,39 @@
+﻿@model IEnumerable<otelapp.Models.KiralananOtel>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kiralanan Oteller</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Kiralanan Oteller</h1>
+
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="@item.KiralananOtelGorsel" class="card-img-top" alt="Otel 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Otel @item.KiralananOtelId</h5>
+                            <p class="card-text">@item.KiralananOtelMetin</p>
+
+                            <form asp-action="IptalEt" method="post">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger">İptal Et</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</body>
+</html>

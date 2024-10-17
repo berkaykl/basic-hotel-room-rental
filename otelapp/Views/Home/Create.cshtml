@@ -1,0 +1,39 @@
+﻿@model otelapp.Models.MyEntity
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kiralık Otel Oluştur</title>
+</head>
+<body>
+
+
+
+    <div class="d-flex justify-content-center align-items-center mt-5">
+
+        <div class="card p-7 shadow mt-5" style="width: 100%; max-width: 700px;">
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label for="linkInput">Otel Görsel URL</label>
+                        <input type="url" class="form-control" id="linkInput" name="OtelGorsel" placeholder="URL girin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="numberInput">Otel Fiyatı</label>
+                        <input type="number" class="form-control" id="numberInput" name="OtelFiyat" placeholder="Fiyat girin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="textInput">Otel Açıklama:</label>
+                        <textarea class="form-control" id="textInput" name="OtelMetin" rows="3" maxlength="220" placeholder="Otel açıklaması girin" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Oluştur</button>
+                    <a href="/Home/Index" class="btn btn-secondary btn-block mt-2">Kiralık Otellere Geri Dön</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+} *@
+
+@model IEnumerable<otelapp.Models.MyEntity>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anasayfa</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Kiralık Oteller</h1>
+
+        <div class="row">
+
+            @foreach (var entity in Model)
+            {
+                <div class="col-md-4 mt-5">
+                    <div class="card">
+                        <img src="@entity.OtelGorsel" class="card-img-top" alt="Otel 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Otel @entity.Id</h5>
+                            <p class="card-text">@entity.OtelMetin</p>
+                            <p class="card-text">Fiyat: $@entity.OtelFiyat</p>
+
+                            <form asp-action="Kirala" method="post">
+                                <input type="hidden" name="otelId" value="@entity.Id" />
+                                <input type="hidden" name="otelMetin" value="@entity.OtelMetin" />
+                                <input type="hidden" name="otelGorsel" value="@entity.OtelGorsel" />
+                                <button href="#" class="btn btn-primary">Kirala</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</body>
+</html>

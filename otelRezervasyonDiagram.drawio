@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-05-29T20:42:23.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="tRHKxqqPOvjcykPXO_5f" version="24.4.10" type="device">
+  <diagram name="Sayfa -1" id="ttzxnXJimaPQnWIAu3i8">
+    <mxGraphModel dx="1393" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-1" target="UYpW8nsrYBB6vyB4vXfw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-1" target="UYpW8nsrYBB6vyB4vXfw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Müşteri&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="80" y="241" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;OTEL REZERVASYON SİTESİ&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="84" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-7" target="UYpW8nsrYBB6vyB4vXfw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-7" target="UYpW8nsrYBB6vyB4vXfw-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-7" target="UYpW8nsrYBB6vyB4vXfw-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-7" target="UYpW8nsrYBB6vyB4vXfw-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yetkili Admin&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="670" y="241" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-8" value="kiralık otel rezervasyon" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="291" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-10" value="kiralık otel rezervasyon silme" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="421" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UYpW8nsrYBB6vyB4vXfw-1" target="UYpW8nsrYBB6vyB4vXfw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-12" value="yeni kiralık otel oluşturma" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="291" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-15" value="kiralık otel güncelleme" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="551" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UYpW8nsrYBB6vyB4vXfw-18" value="otelleri görüntüle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="184" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
